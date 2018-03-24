@@ -20,6 +20,23 @@ def split_ranges(**kwargs):
     for prefix in prefixes:
         print(prefix['ip_prefix'])
 
+# Open Old file or if no file save current range and exit
+
+# Add current range to current set
+
+# Add previous range to last set
+
+# Do difference between current set and last set  <<-- Shows added ranges
+
+# Do difference between last set and current set  <<-- Shows removed ranges
+
+# Print out changes
+
+# Save current range to file
+
+# Move or deleted older files
+
+#
 
 split_ranges(**ip_range)
 
